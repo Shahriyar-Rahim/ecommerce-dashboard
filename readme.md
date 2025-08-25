@@ -22,7 +22,7 @@ A full-stack, responsive E-commerce Dashboard application built with the MERN st
 
 | Dashboard View                               | Mobile View                                |
 | -------------------------------------------- | ------------------------------------------ |
-| ![Dashboard Screenshot](E:\Udemy\MERN Stack Projects\e-commerce-dashboard\github-cover.png\800x500\1a202c\ffffff?text=Dashboard+View) | ![Mobile Screenshot](E:\Udemy\MERN Stack Projects\e-commerce-dashboard\github-cover.png\400x500\1a202c\ffffff?text=Mobile+View)    |
+| ![Dashboard Screenshot](github-cover.png\800x500\1a202c\ffffff?text=Dashboard+View) | ![Mobile Screenshot](mobile.png\400x500\1a202c\ffffff?text=Mobile+View)    |
 
 ---
 
