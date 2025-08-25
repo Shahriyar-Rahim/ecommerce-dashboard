@@ -14,7 +14,8 @@ app.use(express.json());
 app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: true,
+    origin: process.env.FRONTENDURL || 'http://localhost:5173' || 'https://ecommerce-dashboard-virid.vercel.app/api/dashboard/analytics' || 'https://ecommerce-dashboard-client-black.vercel.app',
+    accessControlAllowOrigin: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', "OPTIONS"],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization']
