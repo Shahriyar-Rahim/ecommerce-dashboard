@@ -33,7 +33,7 @@ const Dashboard = () => {
         const fetchData = async () => {
             try {
                 const response = await axios.get(`${import.meta.env.VITE_REACT_APP_BACKENDURL}api/dashboard/analytics`);
-                console.log(response.data)
+                // console.log(response.data)
                 setData(response.data);
 
             } catch (err) {
