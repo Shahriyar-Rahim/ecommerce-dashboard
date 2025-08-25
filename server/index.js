@@ -6,7 +6,7 @@ const NodeCache = require('node-cache');
 const compression = require('compression')
 const app = express();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 const cache = new NodeCache({ stdTTL: 600 });
 
 // middleware
@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: process.env.FRONTENDURL || 'http://localhost:5173',
+    origin: process.env.FRONTENDURL || 'https://ecommerce-dashboard-client-black.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', "OPTIONS"],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization']

@@ -32,7 +32,7 @@ const Dashboard = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://localhost:8080/api/dashboard/analytics`);
+                const response = await axios.get(`${import.meta.env.VITE_REACT_APP_BACKENDURL}/api/dashboard/analytics`);
                 console.log(response.data)
                 setData(response.data);
 
