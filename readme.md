@@ -1,6 +1,6 @@
 # E-commerce Dashboard
 
-![Project Banner](E:\Udemy\MERN Stack Projects\e-commerce-dashboard\github-cover.png)
+![Project Banner](github-cover.png)
 
 A full-stack, responsive E-commerce Dashboard application built with the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS. It provides a clean and intuitive interface for visualizing key business metrics and sales data.
 
